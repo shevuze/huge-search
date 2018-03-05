@@ -1,0 +1,104 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #F1F1F1;
+    font-family: Arial, sans-serif;
+}
+
+.ba-container {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.ba-search-form {
+	font-size: 0;
+}
+
+.ba-search-form > [type="search"]{
+	font-size: 95px;
+	display: inline-block;
+	width: calc(100% - 80px);
+	vertical-align: middle;
+	border: none;
+	background: none;
+	color: #EC5A62;
+}
+
+.ba-search-form > button {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	vertical-align: middle;
+	border: none;
+	background: none;
+	border-radius: 0;
+	cursor: pointer;
+	background: url("../img/magnifier.svg");
+}
+
+.ba-column {
+	display: inline-block;
+    width:30%;
+
+}
+
+.ba-search-columns{
+	font-size: 0;
+}
+
+.ba-column:nth-child(2){
+	margin: 5%;
+}
+
+
+.ba-line h3 {
+    margin: 0;
+    display: inline-block;
+    color: #C6C6C6;
+    font-weight: 700;
+    width:calc(100% - 60px);
+    vertical-align:middle;
+    font-size: 16px;
+}
+
+.ba-column h2{
+    color: #C6C6C6;
+    text-align: left;
+    font-size: 18px;
+}
+
+.ba-list {
+	list-style: none;
+	padding: 0;
+	vertical-align: center;
+}
+
+.ba-line {
+	background: #EBEBED;
+	border: 2px solid #F1F1F1 ;
+	border-radius: 5px;
+	padding:10px;
+
+}
+
+.ba-people-img, .ba-other-img{
+    width:50px;
+    margin: 0 10px 0 0;
+    vertical-align:middle;
+}
+
+.ba-people-img {
+    border-radius:50%;
+}
+
+.ba-line:hover {
+     background: rgba(118,117,128,0.1)
+}
+
+.ba-line h3:active {
+     color: #EC5A62;
+}
